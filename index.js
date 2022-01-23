@@ -1,3 +1,21 @@
+// Import the fs module using require
+const fs = require("fs");
+const inquirer = require("inquirer");
+
+inquirer
+    .prompt([
+        {
+            type: "input",
+            message: "Enter your GitHub username",
+            name: "username"
+        },
+        {
+            type: "input",
+            message: "What is your project's title?",
+            name: "title"
+        },
+    ])
+
 //TODO: Create an array of questions for user input
 const questions = [];
 //TODO: Create a function to write README file
