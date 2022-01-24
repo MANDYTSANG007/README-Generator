@@ -40,7 +40,7 @@ inquirer.prompt([
             type: "list",
             message: "What license should your project include?",
             name: "license",
-            choices: ["MIT", "GPLv2", "Apache", "BSD 3-clause", "Other"]
+            choices: ["MIT", "GPLv2", "Apache", "BSD 3-Clause", "none"]
         },
         {
             type: "input",
