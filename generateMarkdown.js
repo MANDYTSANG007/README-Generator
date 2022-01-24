@@ -1,4 +1,4 @@
-//create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
     var badges = {
         "MIT": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]",
@@ -9,7 +9,8 @@ function renderLicenseBadge(license) {
     }
     return badges[license]
 }
-  
+
+// Create a function that returns the license link. If there is no license, return an empty string
 function renderLicenseLink(license) {
     var links = {
         "MIT": "[Lincense: MIT](https://opensource.org/licenses/MIT)",
@@ -21,18 +22,20 @@ function renderLicenseLink(license) {
     return links[license]
 }
 
+// Create a function that returns the license section of README. If there is no license, return an empty string
 function renderLicenseSection(license) {
-    var section 
+    if (license === "none") {
+        return "";
+    } else {
+        return `This repository is licensed under the ${data.license} license. ${renderLicenseLink}.`
+    }
 }
-
-
-
-
-
 
 
 function generateMarkdown(data) {
     return `
+    ${renderLicenseBadge}
+
     # ${data.title}
     
     ## Description
@@ -62,7 +65,7 @@ function generateMarkdown(data) {
 
     ## License
 
-    This repository is licensed under the ${data.license} license.
+    ${renderLicenseSection}
 
 
     ## Contributing
@@ -78,10 +81,6 @@ function generateMarkdown(data) {
     ## Questions
 
     For questions about this repository, please contact me at ${data.email} or visit my GitHub page at [${data.username}]. 
-    
-    
-    
-    
     
     `;
 }
