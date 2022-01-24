@@ -3,17 +3,59 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkDown = require("/Users/hmtsang/Desktop/UCBerkeleryBootcamp/Homework/README-Generator/generateMarkdown.js");        //read and execute the file
 
-inquirer
-    .prompt([
+
+//prompt the user to answer the following questions
+inquirer.prompt([
         {
             type: "input",
-            message: "Enter your GitHub username",
-            name: "username"
+            message: "What is your GitHub username?",
+            name: "Username"
         },
         {
             type: "input",
             message: "What is your project's title?",
-            name: "title"
+            name: "Title"
+        },
+        {
+            type: "input",
+            message: "Please write your project's description.",
+            name: "Description"
+        },
+        {
+            type: "input",
+            message: "What are the project contents?",
+            name: "Contents"
+        },
+        {
+            type: "input",
+            message: "What are your project's installation instructions?",
+            name: "Installation"
+        },
+        {
+            type: "input",
+            message: "What is your project's usage information?",
+            name: "Usage"
+        },
+        {
+            type: "list",
+            message: "What license should your project include?",
+            name: "License",
+            choices: ["MIT", "GPLv2", "Apache", "BSD 3-clause", "Other"]
+        },
+        {
+            type: "input",
+            message: "Who are the contributors?",
+            name: "Contributors"
+        },
+        {
+            type: "input",
+            message: "What is your project's test instructions?",
+            name: "Tests"
+        },
+        {
+            type: "input",
+            message: "Any questions about this repository?",
+            name: "Questions"
         },
     ])
 //Get hold of the answer
