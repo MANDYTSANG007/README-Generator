@@ -9,53 +9,58 @@ inquirer.prompt([
         {
             type: "input",
             message: "What is your GitHub username?",
-            name: "Username"
+            name: "username"
+        },
+        {
+            type: "input",
+            message: "What is your email address?",
+            name: "email"
         },
         {
             type: "input",
             message: "What is your project's title?",
-            name: "Title"
+            name: "title"
         },
         {
             type: "input",
             message: "Please write your project's description.",
-            name: "Description"
+            name: "description"
         },
         {
             type: "input",
             message: "What are the project contents?",
-            name: "Contents"
+            name: "contents"
         },
         {
             type: "input",
             message: "What are your project's installation instructions?",
-            name: "Installation"
+            name: "installation"
         },
         {
             type: "input",
             message: "What is your project's usage information?",
-            name: "Usage"
+            name: "usage"
         },
         {
             type: "list",
             message: "What license should your project include?",
-            name: "License",
+            name: "license",
             choices: ["MIT", "GPLv2", "Apache", "BSD 3-clause", "Other"]
         },
         {
             type: "input",
             message: "Who are the contributors?",
-            name: "Contributors"
+            name: "contributors"
         },
         {
             type: "input",
             message: "What is your project's test instructions?",
-            name: "Tests"
+            name: "test"
         },
         {
             type: "input",
             message: "Any questions about this repository?",
-            name: "Questions"
+            name: "questions"
         },
     ])
 //Get hold of the answer
