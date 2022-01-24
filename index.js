@@ -28,11 +28,6 @@ inquirer.prompt([
         },
         {
             type: "input",
-            message: "What are the project contents?",
-            name: "contents"
-        },
-        {
-            type: "input",
             message: "What are your project's installation instructions?",
             name: "installation"
         },

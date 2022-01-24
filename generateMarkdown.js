@@ -9,8 +9,13 @@ function generateMarkdown(data) {
 
     ## Table of Contents
 
-    ${data.contents}
-    
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Test Instructions](#test)
+    * [Questions](#questions)
+
 
     ## Installation
 
@@ -27,7 +32,7 @@ function generateMarkdown(data) {
     This repository is licensed under the ${data.license} license.
 
 
-    ## Contributors
+    ## Contributing
 
     ${data.contributors}
     
@@ -39,7 +44,7 @@ function generateMarkdown(data) {
 
     ## Questions
 
-    For questions about this repository, please contact me at ${data.email}.
+    For questions about this repository, please contact me at ${data.email} or visit my GitHub page at [${data.username}]. 
     
     
     
