@@ -21,7 +21,7 @@ When the application runs, it presents a series of prompts for the user to fill 
 ## Design Layout
 
 ![alt text](DemonstrationREADME.md.gif)
-![alt text](./images/.png)
+![alt text](READMEscreenshot.png)
 
 
 ## Authors
