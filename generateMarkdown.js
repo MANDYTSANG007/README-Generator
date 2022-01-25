@@ -34,55 +34,55 @@ function renderLicenseSection(license) {
 
 function generateMarkdown(data) {
     return `
-    ${renderLicenseBadge}
+${renderLicenseBadge}
 
-    # ${data.title}
+# ${data.title}
     
-    ## Description
+## Description
 
-    ${data.description}
-
-
-    ## Table of Contents
-
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Test Instructions](#test)
-    * [Questions](#questions)
+${data.description}
 
 
-    ## Installation
+## Table of Contents
 
-    ${data.installation}
-
-
-    ## Usage
-
-    ${data.usage}
-
-
-    ## License
-
-    ${renderLicenseSection}
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Test Instructions](#test)
+* [Questions](#questions)
 
 
-    ## Contributing
+## Installation
 
-    ${data.contributors}
+${data.installation}
+
+
+## Usage
+
+${data.usage}
+
+
+## License
+
+${renderLicenseSection}
+
+
+## Contributing
+
+${data.contributors}
     
     
-    ## Test Instructions
+## Test Instructions
 
-    ${data.test}
+${data.test}
 
 
-    ## Questions
+## Questions
 
-    For questions about this repository, please contact me at ${data.email} or visit my GitHub page at [${data.username}]. 
+For questions about this repository, please contact me at ${data.email} or visit my GitHub page at [${data.username}]. 
     
-    `;
+`;
 }
 
 module.exports = generateMarkdown;

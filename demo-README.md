@@ -1,5 +1,5 @@
 
-    function renderLicenseBadge(license) {
+function renderLicenseBadge(license) {
     var badges = {
         "MIT": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]",
         "GPLv2": "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)]",
@@ -10,36 +10,36 @@
     return badges[license]
 }
 
-    # Demonstration README.md
+# Demonstration README.md
     
-    ## Description
+## Description
 
-    This is a sample README.md that is generated using the application
-
-
-    ## Table of Contents
-
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Test Instructions](#test)
-    * [Questions](#questions)
+This is a sample README.md that is generated using the application
 
 
-    ## Installation
+## Table of Contents
 
-    This is a sample readme.md
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Test Instructions](#test)
+* [Questions](#questions)
 
 
-    ## Usage
+## Installation
 
-    This is a demo
+This is a sample readme.md
 
 
-    ## License
+## Usage
 
-    function renderLicenseSection(license) {
+This is a demo
+
+
+## License
+
+function renderLicenseSection(license) {
     if (license === "none") {
         return "";
     } else {
@@ -48,18 +48,18 @@
 }
 
 
-    ## Contributing
+## Contributing
 
-    Mandy Tsang
+Mandy Tsang
     
     
-    ## Test Instructions
+## Test Instructions
 
-    npm run test
+npm run test
 
 
-    ## Questions
+## Questions
 
-    For questions about this repository, please contact me at mandy.tsang007@gmail.com or visit my GitHub page at [MANDYTSANG007]. 
+For questions about this repository, please contact me at mandy.tsang007@gmail.com or visit my GitHub page at [MANDYTSANG007]. 
     
     
