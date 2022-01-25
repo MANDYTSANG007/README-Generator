@@ -20,8 +20,8 @@ When the application runs, it presents a series of prompts for the user to fill 
 
 ## Design Layout
 
-![alt text](DemonstrationREADME.md.gif)
-![alt text](READMEscreenshot.png)
+![alt text](.Develop/images/DemonstrationREADME.md.gif)
+![alt text](./Develop/images/READMEscreenshot.png)
 
 
 ## Authors

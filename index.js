@@ -1,7 +1,7 @@
 // Import the fs module using require
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkDown = require("/Users/hmtsang/Desktop/UCBerkeleryBootcamp/Homework/README-Generator/generateMarkdown.js");        //read and execute the file
+const generateMarkDown = require("./Develop/utils/generateMarkdown.js");        //read and execute the file
 
 
 //prompt the user to answer the following questions
@@ -79,25 +79,6 @@ function init(){
 
 //call function to initialize application
 init();
-
-
-// Call function to initialize the program
-
-
-
-//TODO: Create an array of questions for user input
-//const questions = [];
-//TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-//TODO: Create a function to initialize app
-//function init() {}
-//Function call to initalize app
-//init();
-
-
-
-
-
 
 
 
