@@ -29,12 +29,12 @@
 
     ## Installation
 
-    To use this README Generator, run the following command in the terminal: node index.js
+    This is a sample readme.md
 
 
     ## Usage
 
-    This is a sample README.md
+    This is a demo
 
 
     ## License
@@ -55,7 +55,7 @@
     
     ## Test Instructions
 
-    To run test, run the following command in the terminal: npm run test
+    npm run test
 
 
     ## Questions

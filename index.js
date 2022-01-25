@@ -5,22 +5,22 @@ const generateMarkDown = require("/Users/hmtsang/Desktop/UCBerkeleryBootcamp/Hom
 
 
 //prompt the user to answer the following questions
-inquirer.prompt([
-        {
-            type: "input",
-            message: "What is your GitHub username?",
-            name: "username"
-        },
-        {
+const questions = [
+    {
+        type: "input",
+        message: "What is your GitHub username?",
+        name: "username"
+    },
+    {
             type: "input",
             message: "What is your email address?",
             name: "email"
-        },
-        {
+    },
+    {
             type: "input",
             message: "What is your project's title?",
             name: "title"
-        },
+    },
         {
             type: "input",
             message: "Please write your project's description.",
@@ -57,20 +57,29 @@ inquirer.prompt([
             message: "Any questions about this repository?",
             name: "questions"
         },
-    ])
-//Get hold of the answer
-.then((answers) => {
-    let markDownContent = generateMarkDown(answers);          //Pass answers to generateMD function
-    console.log(answers);
+];
 
-    fs.writeFile("demo-README.md", markDownContent, (err) => {
+//function to write README file
+function writeToFile(fileName, data){
+    fs.writeFile(fileName, data, (err) => {
         if (err) {
             console.error(err);
         }
-
     })
+};
 
-})
+function init(){
+    inquirer.prompt(questions)
+    .then((answers) => {
+        let markDownContent = generateMarkDown(answers);          //Pass answers to generateMD function
+        writeToFile("demo-README.md", markDownContent)
+        console.log(answers);
+    });
+};
+
+//call function to initialize application
+init();
+
 
 // Call function to initialize the program
 
