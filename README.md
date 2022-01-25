@@ -1,47 +1,38 @@
+# Professional README Generator
 
-    # generator
-    
-    ## Description
-
-    ah fhai fhia fiaehifa ihefia;hfeaf hai efhiahfei ahfi aheif 
+This is a command-line application that dynamically generates a professional README.md file from a user's input. With this, project creators can devote more time on their projects. 
 
 
-    ## Table of Contents
+## Getting Started
 
-    none
-    
+When the application runs, it presents a series of prompts for the user to fill in. All user's input will be displayed accordingly in the README sections. 
 
-    ## Installation
+## Built With
 
-    just install
-
-
-    ## Usage
-
-    have no idea what this is
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Node.js](https://nodejs.org/en/)
 
 
-    ## License
+## Deployed Link
 
-    This repository is licensed under the BSD 3-clause license.
+* [Link to Github](https://github.com/MANDYTSANG007/PasswordGenerator)
 
+## Design Layout
 
-    ## Contributors
-
-    me
-    
-    
-    ## Test Instructions
-
-    no test is needed
+![alt text](#)
+![alt text](./images/.png)
 
 
-    ## Questions
+## Authors
 
-    For questions about this repository, please contact me at mandy.tsang@yahoo.com.
-    
-    
-    
-    
-    
-    
+* **Mandy Tsang** 
+
+- [Portfolio](https://mandytsang007.github.io/Mandy-Portfolio/)
+- [Github](https://github.com/MANDYTSANG007)
+- [LinkedIn](https://www.linkedin.com/in/man-tsang-64308b22a/)
+
+
+## License
+
+This project is licensed under the MIT License 
+
