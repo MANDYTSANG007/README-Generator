@@ -80,7 +80,7 @@ ${data.test}
 
 ## Questions
 
-For questions about this repository, please contact me at ${data.email} or visit my GitHub page at [${data.username}]. 
+For questions about this repository, please contact me at ${data.email} or visit my GitHub page at [${data.username}](https://www.github.com/${data.userName}). 
     
 `;
 }
