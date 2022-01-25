@@ -15,11 +15,12 @@ When the application runs, it presents a series of prompts for the user to fill 
 
 ## Deployed Link
 
-* [Link to Github](https://github.com/MANDYTSANG007/PasswordGenerator)
+* [Link to walkthrough video](https://youtu.be/Vt4-6wHhNXA)
+* [Link to Github](https://github.com/MANDYTSANG007/README-Generator)
 
 ## Design Layout
 
-![alt text](#)
+![alt text](DemonstrationREADME.md.gif)
 ![alt text](./images/.png)
 
 

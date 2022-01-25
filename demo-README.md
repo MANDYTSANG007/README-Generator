@@ -5,7 +5,7 @@
     
 ## Description
 
-This is a sample README.md that is generated using the application 
+This is a sample README.md that is generated using the application
 
 
 ## Table of Contents
@@ -45,5 +45,5 @@ To run a test, run the following command in the terminal: npm run test
 
 ## Questions
 
-For questions about this repository, please contact me at hello.world007@gmail.com or visit my GitHub page at [HelloWorld007](https://www.github.com/HelloWorld007). 
+For questions about this repository, please contact me at [Hello.World007@gmail.com](Hello.World007@gmail.com) or visit my GitHub page at [HelloWorld007](https://www.github.com/HelloWorld007). 
     
