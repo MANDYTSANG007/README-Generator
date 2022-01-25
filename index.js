@@ -63,7 +63,7 @@ inquirer.prompt([
     let markDownContent = generateMarkDown(answers);          //Pass answers to generateMD function
     console.log(answers);
 
-    fs.writeFile("README.md", markDownContent, (err) => {
+    fs.writeFile("demo-README.md", markDownContent, (err) => {
         if (err) {
             console.error(err);
         }
@@ -72,6 +72,7 @@ inquirer.prompt([
 
 })
 
+// Call function to initialize the program
 
 
 
