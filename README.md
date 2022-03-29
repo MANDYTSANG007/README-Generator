@@ -28,7 +28,7 @@ When the application runs, it presents a series of prompts for the user to fill 
 
 * **Mandy Tsang** 
 
-- [Portfolio](https://mandytsang007.github.io/Mandy-Portfolio/)
+- [Portfolio](https://mandytsang007.github.io/new-portfolio/)
 - [Github](https://github.com/MANDYTSANG007)
 - [LinkedIn](https://www.linkedin.com/in/man-tsang-64308b22a/)
 
