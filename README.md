@@ -26,7 +26,7 @@ When the application runs, it presents a series of prompts for the user to fill 
 
 ## Authors
 
-* **Mandy Tsang** 
+**Mandy Tsang** 
 
 - [Portfolio](https://mandytsang007.github.io/new-portfolio/)
 - [Github](https://github.com/MANDYTSANG007)
