@@ -9,7 +9,7 @@ When the application runs, it presents a series of prompts for the user to fill 
 
 ## Built With
 
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
 
 
